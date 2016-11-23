@@ -1,7 +1,7 @@
 
 # CSS Columns Along Exercise
 
-## Overview
+##  Overview
 
 In this code along exercise we will add column structure to our page layouts.
 
