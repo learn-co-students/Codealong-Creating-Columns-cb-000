@@ -70,7 +70,11 @@ figcaption {
 #details a:active {
   color: red;
 }
-/*/////LAYOUT ////*/
+/*///// MEDIA /////*/
+img, video, audio {
+  max-width: 100%;
+}
+/*///// LAYOUT /////*/
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -91,4 +95,21 @@ figcaption {
 
 .col-3 {
   background: #eee;
+}
+
+[class*='col-'] {
+  margin-left: 2%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.first {
+  margin-left: 0%;
 }
