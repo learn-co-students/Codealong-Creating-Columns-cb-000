@@ -76,7 +76,7 @@ figcaption {
 .wrapper {
   width: 960px
   margin: 0 auto;
-  background: #eee;  
+  background: #eee;
 }
 
 .col-1 {
@@ -90,7 +90,7 @@ figcaption {
   float: left;
   width: 66%;
   background: #ccc;
-  
+
 }
 
 .col-3 {
@@ -99,7 +99,7 @@ figcaption {
 
 [class*="col-"] {
   margin-left: 2%;
-  
+
 }
 
 .first {
